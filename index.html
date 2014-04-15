@@ -7,15 +7,54 @@
 <script type="text/javascript" src="js/kelapkelip.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-       $('.testt').kelapkelip({backgroundColor:'red',staticbg:false,timer:3000});        
+       $('.test1').kelapkelip({backgroundColor:'red',staticbg:false,timer:5000}); 
+       $('.test2').kelapkelip({backgroundColor:'red',staticbg:false,timer:1000}); 
+       $('.test3').kelapkelip({backgroundColor:'yellow',staticbg:true,timer:5000});   
+       $('.test4').kelapkelip({backgroundColor:'yellow',staticbg:true,timer:1000});   
+       $('.combination1').kelapkelip({backgroundColor:'white',staticbg:false,timer:500}); 
+       $('.combination2').kelapkelip({backgroundColor:'white',staticbg:false,timer:500});        
     });
 </script>
+<style>
+#container{
+    width: 600px;
+    float: left;
+    
+}
+.combination1{
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left
+}
+.combination2{
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left
+}
+</style>
 
 </head>
 <body>
 
-<div class="testt">Kelap kelip</div>
-<div class="testt">Kelap kelip 222</div>
+<div class="test1">Kelap kelip 5s non static background</div>
+<br />
+<div class="test2">Kelap kelip 1s non static background</div>
+<br />
+<div class="test3">Kelap kelip 5s static background</div>
+<br />
+<div class="test4">Kelap kelip 1s static background</div>
+<br>
 
+<div id="container">
+    <div class="combination1">Combination with css</div>
+    <div class="combination2">Combination with css</div>
+    <div class="combination2">Combination with css</div>
+    <div class="combination2">Combination with css</div>
+    <div class="combination2">Combination with css</div>
+</div>
+<br />
+<a href="https://github.com/stephaniemartin/kelapkelip" target="_blank">Download on GitHub</a>
 </body>
 </html>
