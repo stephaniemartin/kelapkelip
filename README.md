@@ -10,3 +10,5 @@ You can change the setting:
 - timer: how long the changes should be held (in miliseconds)
 
 I hope you like it.. :)
+
+Demo: http://trending.im/jsproject/kelapkelip/
