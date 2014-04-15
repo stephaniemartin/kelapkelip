@@ -11,7 +11,8 @@ martinlilik.blogspot.com
     $.fn.kelapkelip = function(options) {
         var settings =$.extend({
             backgroundColor:'white',
-            staticbg:false
+            staticbg:false,
+            timer:1000
         },options);
         
         // Iterate and reformat each matched element.
@@ -57,7 +58,7 @@ martinlilik.blogspot.com
                 }
             }
 
-            window.setInterval(flipflop,1000);
+            window.setInterval(flipflop,settings.timer);
         });    
             
          
